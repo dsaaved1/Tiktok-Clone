@@ -1,0 +1,15 @@
+.videoSidebarLeft {
+    position: absolute;
+    top: 65%;
+    left:20px;
+    color: white;
+  }
+
+  .videoSidebarLeft__button > .profile{
+      background-color: rgb(65, 98, 197);
+  }
+
+  .videoSidebarLeft__button > p{
+      margin-left: 33px;
+      font-size: 40px;
+  }
