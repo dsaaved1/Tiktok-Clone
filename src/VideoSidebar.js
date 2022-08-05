@@ -17,7 +17,8 @@ function VideoSidebar({likes, dislikes, comments, shares}) {
     <div className="videoSidebar">
 
       <div className="videoSidebar__button">
-          <div class="profile"> </div>
+          <div class="profile">
+          </div>
       </div>
 
     

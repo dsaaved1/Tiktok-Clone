@@ -2,8 +2,8 @@
     /* all rules are going to apply within that parent container*/
     position: relative;
     color: white;
-    bottom: 125px;
-    margin-left: 40px;
+    bottom: 130px;
+    margin-left: 20px;
     display: flex;
 }
 
