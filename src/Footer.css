@@ -1,0 +1,48 @@
+.footer {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: black;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+   
+}
+
+.footer_center {
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+
+
+
+.header_option > .MuiSvgIcon-root{
+    color: white;
+}
+
+.header_option:hover > .MuiSvgIcon-root{
+    color: grey;
+}
+
+.header_option {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header_option:hover {
+    
+    border-bottom: none;
+}
+
+.header_option--active > .MuiSvgIcon-root {
+    color: grey;
+}
+
+.header_option--active  {
+    border-bottom: 3px solid grey;
+}
+

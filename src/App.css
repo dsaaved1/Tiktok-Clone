@@ -1,10 +1,9 @@
-html {
-  scroll-snap-type: y mandatory;
-}
+
+
 
 .app {
   height: 100vh;
-  background-color: rgba(3, 2, 2, 0.795);
+  background-color:grey;
   display: grid;
   place-items: center;
   
@@ -16,7 +15,7 @@ html {
   .app__videos {
     position: relative;
     border-radius: 20px;
-    height: 85%;
+    height: 100%;
     width: 100%;
     overflow: scroll;
     scroll-snap-type: y mandatory;
@@ -27,8 +26,8 @@ html {
   .app__videos {
     position: relative;
     border-radius: 20px;
-    height: 900px;
-    width: 480px;
+    height: 70%;
+    max-width: 360px;
     overflow: scroll;
     scroll-snap-type: y mandatory;
   }
